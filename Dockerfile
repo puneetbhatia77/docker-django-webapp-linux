@@ -1,5 +1,5 @@
 
-FROM tiangolo/uwsgi-nginx-flask:python3.6
+FROM tiangolo/uwsgi-nginx-flask:python3.12
 
 RUN mkdir /code
 WORKDIR /code
